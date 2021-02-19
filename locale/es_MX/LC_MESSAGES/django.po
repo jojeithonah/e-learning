@@ -1,0 +1,219 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 20:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: apps/regions/models.py:9
+msgid "Title region"
+msgstr "Titulo de region"
+
+#: apps/users/admin.py:14
+msgid "Personal info"
+msgstr "Informacion personal"
+
+#: apps/users/admin.py:27
+msgid "Permissions"
+msgstr "Permisos"
+
+#: apps/users/models.py:30
+msgid "Super Admin"
+msgstr "Super Administrador"
+
+#: apps/users/models.py:31
+msgid "Institution Manager"
+msgstr "Institucion manager"
+
+#: apps/users/models.py:32
+msgid "Strength Coach"
+msgstr "Strength Coach"
+
+#: apps/users/models.py:33
+msgid "Athlete"
+msgstr "Athlete"
+
+#: apps/users/models.py:37 apps/users/models.py:58
+msgid "Rol"
+msgstr "Rol"
+
+#: apps/users/models.py:44
+msgid "Region user"
+msgstr "Region de usuario"
+
+#: apps/users/models.py:51
+msgid "code country"
+msgstr "Codigo de Pais"
+
+#: apps/users/models.py:62
+msgid "Date Birthday"
+msgstr "Fecha de cumpleaños"
+
+#: apps/users/models.py:68
+msgid "photo profile"
+msgstr "Foto de perfil"
+
+#: apps/users/models.py:78
+msgid "Team asociated"
+msgstr "Equipo asociado"
+
+#: apps/users/models.py:85
+msgid "email verified?"
+msgstr "correo verificado?"
+
+#: apps/users/models.py:89
+msgid "subscription active?"
+msgstr "subscription activa?"
+
+#: apps/users/serializers.py:67
+#, python-format
+msgid "The email: %(value)s is already registered."
+msgstr "El correo: %(value)s esta registrado"
+
+#: apps/users/serializers.py:75
+msgid "Passwords do not match."
+msgstr "Contraseñas no coinciden"
+
+#: apps/users/utils.py:11
+#, fuzzy
+#| msgid "code country"
+msgid "Active account"
+msgstr "Activar cuenta"
+
+#: apps/users/utils.py:12
+msgid ""
+"Welcome to project, click on the following link to activate your "
+"account"
+msgstr ""
+"Bienvenido a project, click al siguiente enlace para activar tu "
+"cuenta"
+
+#: apps/users/utils.py:13
+msgid "If it does not redirect the button, copy the following link:"
+msgstr "Si no redirecciona el botón, copie el siguiente link:"
+
+#: apps/users/utils.py:14
+msgid "Go to link"
+msgstr "Ir al enlace"
+
+#: apps/users/utils.py:15
+#, fuzzy
+#| msgid "Name team"
+msgid "team"
+msgstr "Nombre del equipo"
+
+#: apps/users/utils.py:20 apps/users/utils.py:21
+msgid "Código de activación"
+msgstr ""
+
+#: apps/users/views.py:32
+msgid "you dont have permissions for create this user"
+msgstr "No tienes permisos para crear este tipo de usuario"
+
+#: apps/users/views.py:63
+msgid "Account active!!"
+msgstr "Cuenta activada!!"
+
+#: apps/users/views.py:64
+#, fuzzy
+#| msgid ""
+#| "Welcome to project, click on the following link to activate your "
+#| "account"
+msgid "Welcome to project, your account has been activated"
+msgstr ""
+"Bienvenido a project, tu cuenta a sido activadaBienvenido a Solo "
+"project, click al siguiente enlace para activar tu cuenta"
+
+#: apps/users/views.py:65
+#, fuzzy
+#| msgid "Go to link"
+msgid "Go to panel"
+msgstr "Ir al enlace"
+
+#: apps/users/views.py:66 apps/users/views.py:73
+msgid "Team"
+msgstr "Equipo"
+
+#: apps/users/views.py:71
+msgid "This link is not valid"
+msgstr "El link no es valido"
+
+#: apps/users/views.py:72
+msgid "Oops something went wrong"
+msgstr "Oops algo salió mal"
+
+#: apps/teams/models.py:8
+msgid "Name team"
+msgstr "Nombre del equipo"
+
+#: project/templates/default_urlconf.html:6
+msgid ""
+"project powered by Django: the Web framework for perfectionists "
+"with deadlines."
+msgstr ""
+
+#: project/templates/default_urlconf.html:383
+msgid "Django Documentation"
+msgstr "Documentacion de django"
+
+#: project/templates/default_urlconf.html:384
+msgid "Topics, references, &amp; how-to's"
+msgstr ""
+
+#: project/templates/default_urlconf.html:395
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: project/templates/default_urlconf.html:396
+msgid "Get started with Django"
+msgstr ""
+
+#: project/templates/default_urlconf.html:407
+msgid "Django Community"
+msgstr ""
+
+#: project/templates/default_urlconf.html:408
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#~ msgid "invalid credentials."
+#~ msgstr "Credenciales invalidas"
+
+#~ msgid "The password must contain at least 1 uppercase letter, A-Z."
+#~ msgstr "La contraseña debe contener al menos 1 letra mayúscula, A-Z."
+
+#~ msgid "Your password must contain at least 1 uppercase letter, A-Z."
+#~ msgstr "Su contraseña debe contener al menos 1 letra mayúscula, A-Z."
+
+#~ msgid ""
+#~ "The password must contain at least 1 symbol: ()[]{}|\\`~!@#$%^&*_-+=;:'\","
+#~ "<>./?"
+#~ msgstr ""
+#~ "La contraseña debe contener al menos un carácter valido: ()[]{}|\\`~!@#$"
+#~ "%^&*_-+=;:'\",<>./?"
+
+#~ msgid ""
+#~ "Your password must contain at least 1 symbol: ()[]{}|\\`~!@#$%^&*_-"
+#~ "+=;:'\",<>./?"
+#~ msgstr ""
+#~ "La contraseña debe contener al menos un carácter valido: ()[]{}|\\`~!@#$"
+#~ "%^&*_-+=;:'\",<>./?"
+
+#~ msgid "The password must contain at least 1 digit, 0-9."
+#~ msgstr "La contraseña debe contener al menos 1 dígito, 0-9."
+
+#~ msgid "Your password must contain at least 1 digit, 0-9."
+#~ msgstr "La contraseña debe contener al menos 1 dígito, 0-9."
