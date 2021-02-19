@@ -6,8 +6,6 @@
 * [Estructura del Proyecto](#estructura-del-proyecto)
 * [Instalación](#instalacion)
 * [Instrucciones](#instrucciones)
-    - [Instalación Local](#local)
-* [Crear una nueva app](#crear-una-nueva-app)
 * [Variables de entorno](#variables-de-entorno)
 * [Lenguajes de traduccion](#Compile-message-languaje) 
 
@@ -58,8 +56,6 @@ boilerplate/
     common/
         enums.py
         exeption_handler.py
-        pagination.py
-        storage_backends.py
     locale/
         es_MX/
             /LC_MESSAGES
@@ -71,7 +67,6 @@ boilerplate/
             default_urlconf.html
         urls.py
         wsgi.py
-        asgi.py
         settings.py
     .env.sample
     manage.py
